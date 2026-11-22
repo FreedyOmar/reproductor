@@ -661,7 +661,7 @@
     tracks = toItems(tNames, CONFIG.musicFolder);
     photos = toItems(pNames, CONFIG.photosFolder);
 
-    updateStatus();
+
     if (tracks.length) loadTrack(0, false);
     await showPhoto(0);
 
